@@ -33,6 +33,7 @@
     #yearGrade {
         font-size: 5vw;
         font-weight: 600;
+        width: 75vw;
         padding: 2vw;
         border-radius: 25px;
         text-align: center;

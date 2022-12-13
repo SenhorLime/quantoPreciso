@@ -4,20 +4,19 @@ const resultField = document.querySelector(".results");
 
 let notaAno = 0;
 
-function getValue() {
+submitButton.addEventListener("click", () => {
   notaAno = gradeInput.value;
 
   if (notaAno < 40 || notaAno >= 60) {
     alert("Nota Invalida. Tente Novamente");
   } else {
-    submitButton.innerHTML = `<button id="submit" onclick="showResult()">Mostre quanto preciso</button>`;
+    let notaNecessaria = (60 - notaAno) / 2;
+
+    resultField.innerHTML =
+      "Você precisa tirar " +
+      (60 + notaNecessaria) +
+      " na recuperação final para passar";
+
+    submitButton.innerHTML = `<button id="submit">Ver outra nota</button>`;
   }
-}
-
-function showResult() {
-  let notaNecessaria = (60 - notaAno) / 2;
-  
-  console.log(notaNecessaria);
-
-  resultField.innerHTML = "Você precisa tirar " + (60+notaNecessaria) + " na recuperação final para passar";
-}
+});

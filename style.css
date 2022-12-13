@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
-    font-family: 'Gantari', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -29,7 +29,7 @@ body {
 .title {
     color: #c6d0f5;
     font-size: 2vw;
-    font-weight: 600;
+    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,7 +52,7 @@ body {
     background-color: #414559;
     color: #b5bfe2;
     font-size: 1.2vw;
-    font-weight: 600;
+    font-weight: 500;
     width: 20vw;
     padding: 0.7vw;
     border-radius: 25px;
@@ -75,7 +75,7 @@ body {
     background-color: #303446;
     color: #a5adce;
     font-size: 1.2vw;
-    font-weight: 400;
+    font-weight: 600;
     padding: 0.5vw;
     border-radius: 25px;
     position: absolute;
